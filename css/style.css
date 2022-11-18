@@ -1,0 +1,63 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:burlywood;
+}
+
+
+li {
+    float: right;
+
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:maroon;
+}
+
+#heading {
+   text-align: center;
+}
+
+
+#contact-form {
+
+    text-align: center;
+}
+
+#figure-01 {
+    text-align:center;
+}
+
+.welcome-content {
+
+    background-color:cornsilk;
+}
+
+.contact-form {
+
+    background-color:bisque;
+}
+
+footer {
+    background-color:burlywood;
+}
