@@ -33,5 +33,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to My Portfolio Website
 
-Please refer to the following link to access my portfolio wesbite.  [Uchenna's portfolio Website](https://uobie80.github.io/project-challenge-01/) 
+Please refer to the following link to access my portfolio wesbite.  [Uchenna's portfolio Website](https://uobie80.github.io/project-challenge-02/) 
 
