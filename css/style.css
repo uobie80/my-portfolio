@@ -25,11 +25,12 @@ body {
 }
 
 
-.row-cells-01 > * {
-    width: 32.3%;
+.row-cols-01 > * {
+    width: 33.3%;
+    box-sizing: border-box;
 }
 
-.row-cells-02 > * {
+.row-cols-02 > * {
     width: 24%;
 }
 
