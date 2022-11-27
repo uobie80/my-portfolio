@@ -24,7 +24,7 @@ body {
     float: left;
     box-sizing: border-box;
     min-height: 100px;
-    outline: 1px solid #666;
+  
     margin: 0 0.5% 0.575em;
 }
 
@@ -35,19 +35,45 @@ body {
 }
 
 .row-cols-02 > * {
-    width: 24%;
+
+  width: 24%;
+    
+}
+
+.portfolios {
+    background-color: #eee;
+    padding: .3em;
+}
+
+.portfolios, h3 {
+    font-family: var(--main-font-family);
+    
+}
+
+
+
+.portfolios img {
+    width: 100%;
+}
+
+.portfolios img:active{
+    width: 200%;
 }
 
 .row-cols-01 p {
     font-family: var(--main-font-family);
     font-size: 1em;
-    margin: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sub-section-header {
     width: 15%;
     font-family: var(--main-font-family);
     text-align: right;
+    border-right: rgb(0, 0, 0)
+    
  
 }
 
@@ -89,13 +115,16 @@ body {
     text-decoration: none;
     line-height: 1em;
     padding: 1em;
-    color: #fff;
+    color: silver;
 }
 
 
 footer p {
-    margin-left: 5em;
+    margin-left: 15em;
     font-family: var(--main-font-family);
+    color: white;
+    font-size: 14px;
+    padding: 10px;
 }
 
 .img-container-01 {
@@ -114,7 +143,7 @@ footer p {
 
 .img-plate-01  {
   background-color: #fff;
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.4);
   width: 200px;
   height: 70px;
   text-align: center;
@@ -129,17 +158,9 @@ footer p {
     color: black;
   }
 
-  /*
-  .main-header .wrapper {
-    margin: auto;
-
-    background-color: black;
-  }
-  */
-
   .main-header .wrapper h1 {
     font-family: var(--main-font-family);
-    color: white;
+    color: silver;
     background-color: black;
     margin-bottom: 0px;
     background-image: url('/images/quasar-03.png');
@@ -148,6 +169,36 @@ footer p {
 
 
   .row-cols-02 p {
+    font-family: var(--main-font-family);
+    font-size: 12px;
     margin-left: 10px;
     margin-top: 30px;
   }
+
+/* Set background color for container in footer section*/
+
+  .footer-content {
+      background-color: black;
+  }
+
+
+ /* Change background color */
+ 
+ .main-nav a:hover {
+     background-color: silver;
+     color: black;
+ }
+
+
+ #col_01:hover {
+     transform:scale(400px, 400px);
+ }
+ /* Font size and layout rules for small screen widths */
+ @media screen and (min-wdith: 500px) {
+  
+     h1, p, a, h2 {
+        font-size: 5vw;
+        overflow-wrap: break-word;
+     }
+
+ }
