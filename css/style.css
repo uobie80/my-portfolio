@@ -30,12 +30,18 @@ body {
 
 
 .row-cols-01 > * {
-    width: 32.3%;
+    width: 99%;
     box-sizing: border-box;
 }
 
 .row-cols-02 > * {
     width: 24%;
+}
+
+.row-cols-01 p {
+    font-family: var(--main-font-family);
+    font-size: 1em;
+    margin: 10px;
 }
 
 .sub-section-header {
@@ -65,7 +71,6 @@ body {
     margin-block-start: 4.5px;
     margin-block-end: 0px;
 }
-
 
 
 .main-nav li {
