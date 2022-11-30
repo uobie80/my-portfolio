@@ -30,8 +30,10 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Mock up of home page
+![Alt text](images/mock-up.png?raw=true "Uchenna's Portfolio Site")
 
 ## Link to My Portfolio Website
 
-Please refer to the following link to access my portfolio wesbite.  [Uchenna's portfolio Website](https://uobie80.github.io/project-challenge-02/) 
+Please refer to the following link to access my portfolio wesbite.  [Uchenna's portfolio Website](https://uobie80.github.io/my-portfolio/) 
 
